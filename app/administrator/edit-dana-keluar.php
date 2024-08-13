@@ -18,16 +18,7 @@
 
 <main id="main" class="main">
 
-    <div class="pagetitle">
-      <h1>Dana Keluar</h1>
-      <nav>
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-          <li class="breadcrumb-item">Pengelolaan Kas</li>
-          <li class="breadcrumb-item active">Dana Keluar</li>
-        </ol>
-      </nav>
-    </div><!-- End Page Title -->
+   
 
     <section class="section">
         <div class="row">
