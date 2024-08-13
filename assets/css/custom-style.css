@@ -1,0 +1,257 @@
+/* Student Registration Form Styles */
+.student-registration .form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    /* Adjust padding for better text alignment */
+}
+
+.student-registration label {
+    font-weight: 600;
+    /* Make labels bold */
+    color: #333;
+    /* Label text color */
+    margin-bottom: 5px;
+    /* Space below the label */
+    display: block;
+    /* Ensure labels take up the full width */
+}
+
+.student-registration .btn-primary {
+    padding: 10px 20px;
+    /* Larger button for better interaction */
+    font-size: 16px;
+    /* Larger font size for readability */
+    border-radius: 5px;
+    /* Rounded corners for the button */
+    background-color: #0056b3;
+    /* Primary button color */
+    border: none;
+    /* Remove border */
+}
+
+.student-registration .row {
+    margin-bottom: 20px;
+    /* Space between rows */
+}
+
+.custom-nav .nav-link {
+    background-color: #f5f5f5;
+    /* Light grey background */
+    color: #333;
+    /* Dark grey text */
+    border: 1px solid #ccc;
+    /* Light grey border */
+    margin: 5px;
+    /* Slight space between buttons */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for hover effects */
+}
+
+.custom-nav .nav-link:hover, .custom-nav .nav-link.active {
+    background-color: #4CAF50;
+    /* Green background for active/hover */
+    color: #fff;
+    /* White text for active/hover */
+    border-color: #4CAF50;
+    /* Green border for active/hover */
+}
+
+.custom-nav .nav {
+    padding: 20px 0;
+    /* Padding around the nav bar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    background: #ffffff;
+    /* White background for the entire nav bar */
+}
+
+/* Disabled link styles */
+.custom-nav .nav-link.disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+    border-color: #e9ecef;
+    pointer-events: none;
+    cursor: default;
+}
+
+.image-placeholder {
+    width: 100%;
+    /* Responsive width */
+    height: 200px;
+    /* Fixed height */
+    background-color: #eee;
+    /* Light grey background */
+    border: 2px dashed #ccc;
+    /* Dashed border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    /* Light grey color for the optional text */
+    font-size: 16px;
+}
+
+.image-placeholder img {
+    width: 100%;
+    /* Responsive image width */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-height: 100%;
+    /* Limit height to the container */
+}
+
+.exam-results {
+    background-color: #fff;
+    /* White background */
+    color: #333;
+    /* Dark text for readability */
+}
+
+.exam-results h2 {
+    margin-bottom: 20px;
+    /* Space below the header */
+}
+
+.result-icon {
+    color: #28a745;
+    /* Green color for the icon */
+}
+
+.result-icon.danger {
+    color: #dc3545;
+    /* Red color for the icon */
+}
+
+.result-icon.info {
+    color: #007bff;
+    /* Blue color for the icon */
+}
+
+.result-message {
+    color: #28a745;
+    /* Green color for the message */
+    font-size: 24px;
+    /* Larger font size for emphasis */
+    font-weight: bold;
+    /* Bold font weight for emphasis */
+}
+
+.result-message.danger {
+    color: #dc3545;
+    /* Red color for the error message */
+    font-size: 24px;
+    /* Larger font size for emphasis */
+    font-weight: bold;
+    /* Bold font weight for emphasis */
+}
+
+.result-message.info {
+    color: #007bff;
+    /* Blue color for the info message */
+    font-size: 24px;
+    /* Larger font size for emphasis */
+    font-weight: bold;
+    /* Bold font weight for emphasis */
+}
+
+.notification-container {
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* Add left margin to create space */
+}
+
+.notification-icon {
+    color: #28a745;
+    /* Green color for the bell icon */
+    font-size: 24px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.notification-icon .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.bi-bell {
+    font-size: 24px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.notification-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.notification-item i {
+    color: green;
+    margin-right: 10px;
+}
+
+.notification-item span {
+    color: black;
+    font-size: 14px;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}
+
+.notification-container:hover .dropdown-content {
+    display: block;
+}
+
+.subtext {
+    display: block;
+    font-size: 17px;
+    /* Adjust the size as needed */
+}
+
+.payment-info {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.payment-info .label {
+    font-weight: bold;
+}
+
+.payment-info .value {
+    float: right;
+}
+
+.payment-info .status-pending {
+    color: red;
+}
+
+.payment-info .virtual-account {
+    color: blue;
+}
+
+.payment-info .item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
